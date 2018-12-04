@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: AssignmentTest
+  host: ass2
+  disk_quota: 1024M
+  services:
+  - Object Storage-5s
+  buildpack: php_buildpack

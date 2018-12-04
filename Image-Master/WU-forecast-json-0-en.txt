@@ -1,0 +1,1406 @@
+HTTP/1.1 200 OK
+Server: Apache/2.2.15 (CentOS)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+X-CreationTime: 0.432
+Last-Modified: Tue, 01 Mar 2016 06:20:07 GMT
+Content-Type: application/json; charset=UTF-8
+Expires: Tue, 01 Mar 2016 06:20:08 GMT
+Cache-Control: max-age=0, no-cache
+Pragma: no-cache
+Date: Tue, 01 Mar 2016 06:20:08 GMT
+Content-Length: 26795
+Connection: close
+Set-Cookie: DT=1456813207:74682:wufct-prod2; path=/; expires=Fri, 01-Jan-2020 00:00:00 GMT; domain=.wunderground.com
+
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast10day": 1
+  ,
+  "geolookup": 1
+  }
+	}
+		,	"location": {
+		"type":"INTLCITY",
+		"country":"CA",
+		"country_iso3166":"CA",
+		"country_name":"Canada",
+		"state":"",
+		"city":"Oshawa",
+		"tz_short":"EST",
+		"tz_long":"America/Montreal",
+		"lat":"43.91999817",
+		"lon":"-78.87999725",
+		"zip":"00000",
+		"magic":"1",
+		"wmo":"71697",
+		"l":"/q/zmw:00000.1.71697",
+		"requesturl":"global/stations/71697.html",
+		"wuiurl":"http://www.wunderground.com/global/stations/71697.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Oshawa, Ont", "state":"", "country":"CA", "icao":"", "lat":"43.92277908", "lon":"-78.88333130" }
+		,{ "city":"Oshawa Airport", "state":"", "country":"CA", "icao":"CYOO", "lat":"43.92216110", "lon":"-78.89527130" }
+		,{ "city":"Markham", "state":"", "country":"CA", "icao":"CYKZ", "lat":"43.86602020", "lon":"-79.36805725" }
+		,{ "city":"Toronto City", "state":"", "country":"CA", "icao":"CXTO", "lat":"43.66666794", "lon":"-79.40000153" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Chelsea Court",
+		"city":"Oshawa",
+		"state":"ONTARIO",
+		"country":"CANADA",
+		"id":"IONTARIO1037",
+		"lat":43.929932,
+		"lon":-78.856728,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"The Vicarage",
+		"city":"Oshawa",
+		"state":"ON",
+		"country":"CANADA",
+		"id":"IONOSHAW2",
+		"lat":43.896912,
+		"lon":-78.874046,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Roundelay Drive Oshawa Ontario",
+		"city":"Oshawa",
+		"state":"ONTARIO",
+		"country":"CANADA",
+		"id":"IONTARIO925",
+		"lat":43.901520,
+		"lon":-78.901154,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"west Oshawa",
+		"city":"Oshawa",
+		"state":"ONTARIO",
+		"country":"CANADA",
+		"id":"IONTARIO364",
+		"lat":43.888882,
+		"lon":-78.893059,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"OC Oshawa",
+		"city":"Oshawa",
+		"state":"ONTARIO",
+		"country":"CANADA",
+		"id":"IONTARIO688",
+		"lat":43.888008,
+		"lon":-78.868294,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Town",
+		"city":"Whitby",
+		"state":"ON",
+		"country":"Canada",
+		"id":"IONTARIO76",
+		"lat":43.908073,
+		"lon":-78.928635,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"East Oshawa / Courtice Ontario",
+		"city":"Courtice",
+		"state":"ONTARIO",
+		"country":"CANADA",
+		"id":"IONTARIO404",
+		"lat":43.906075,
+		"lon":-78.796959,
+		"distance_km":6,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"APRSWXNET",
+		"city":"Markham",
+		"state":"ON",
+		"country":"CA",
+		"id":"ME4783",
+		"lat":43.906361,
+		"lon":-78.794029,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"South Courtice",
+		"city":"Courtice",
+		"state":"ONTARIO",
+		"country":"CANADA",
+		"id":"IONTARIO707",
+		"lat":43.889050,
+		"lon":-78.799965,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Whitby Yacht club",
+		"city":"Whitby",
+		"state":"ONTARIO",
+		"country":"CANADA",
+		"id":"IONTARIO1071",
+		"lat":43.851364,
+		"lon":-78.933449,
+		"distance_km":8,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Clover Ridge",
+		"city":"Ajax",
+		"state":"ONTARIO",
+		"country":"CANADA",
+		"id":"IONTARIO889",
+		"lat":43.830730,
+		"lon":-79.004692,
+		"distance_km":14,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"VA3DBJ",
+		"city":"Bowmanville",
+		"state":"Ontario",
+		"country":"CANADA",
+		"id":"IONTARIO442",
+		"lat":43.920860,
+		"lon":-78.688782,
+		"distance_km":15,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Pickering - Fieldstone",
+		"city":"Pickering",
+		"state":"ONTARIO",
+		"country":"CANADA",
+		"id":"IONTARIO356",
+		"lat":43.848419,
+		"lon":-79.101402,
+		"distance_km":19,
+		"distance_mi":11
+		},
+		{
+		"neighborhood":"Pickering - Maple Ridge",
+		"city":"Pickering",
+		"state":"ONTARIO",
+		"country":"CANADA",
+		"id":"IONTARIO368",
+		"lat":43.847492,
+		"lon":-79.103294,
+		"distance_km":19,
+		"distance_mi":11
+		},
+		{
+		"neighborhood":"Skyloft - VE3RPT",
+		"city":"Uxbridge",
+		"state":"ON",
+		"country":"CANADA",
+		"id":"IONTHORN2",
+		"lat":44.031551,
+		"lon":-79.075241,
+		"distance_km":19,
+		"distance_mi":11
+		},
+		{
+		"neighborhood":"Blossom Court",
+		"city":"Port Perry",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONPORTP2",
+		"lat":44.099609,
+		"lon":-78.942490,
+		"distance_km":20,
+		"distance_mi":12
+		},
+		{
+		"neighborhood":"Centennial",
+		"city":"Oshawa",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONOSHAW6",
+		"lat":43.919579,
+		"lon":-78.856354,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"William Davidson Street",
+		"city":"Whitby",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONWHITB3",
+		"lat":43.908409,
+		"lon":-78.907646,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"O\u0027Neill",
+		"city":"Oshawa",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONOSHAW3",
+		"lat":43.897091,
+		"lon":-78.865791,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Eastdale",
+		"city":"Oshawa",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONOSHAW10",
+		"lat":43.917389,
+		"lon":-78.845016,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"McLaughlin",
+		"city":"Oshawa",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONOSHAW12",
+		"lat":43.894585,
+		"lon":-78.888947,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Taunton",
+		"city":"Oshawa",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONOSHAW5",
+		"lat":43.943390,
+		"lon":-78.856613,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Taunton",
+		"city":"Oshawa",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONOSHAW4",
+		"lat":43.944920,
+		"lon":-78.857857,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Pinecrest",
+		"city":"Oshawa",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONOSHAW18",
+		"lat":43.935295,
+		"lon":-78.834404,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Eastdale",
+		"city":"Oshawa",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONOSHAW8",
+		"lat":43.919857,
+		"lon":-78.823143,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Robideau Place",
+		"city":"Whitby",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONWHITB8",
+		"lat":43.902901,
+		"lon":-78.950867,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Nash Road",
+		"city":"Courtice",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONCOURT2",
+		"lat":43.910824,
+		"lon":-78.804070,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Calais Street",
+		"city":"Whitby",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONWHITB4",
+		"lat":43.874729,
+		"lon":-78.951698,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Donahoe Avenue",
+		"city":"Whitby",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONWHITB2",
+		"lat":43.837975,
+		"lon":-78.984879,
+		"distance_km":12,
+		"distance_mi":7
+		},
+		{
+		"neighborhood":"Noake Crescent",
+		"city":"Ajax",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONAJAX5",
+		"lat":43.869087,
+		"lon":-79.035378,
+		"distance_km":13,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"Cullcastle Street",
+		"city":"Ajax",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONAJAX3",
+		"lat":43.844521,
+		"lon":-79.022820,
+		"distance_km":14,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"Callen Court",
+		"city":"Ajax",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONAJAX11",
+		"lat":43.826740,
+		"lon":-79.006081,
+		"distance_km":14,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"Cadby Road",
+		"city":"Ajax",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONAJAX13",
+		"lat":43.821953,
+		"lon":-79.020142,
+		"distance_km":15,
+		"distance_mi":9
+		},
+		{
+		"neighborhood":"Rigby Drive",
+		"city":"Pickering",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONPICKE13",
+		"lat":43.853889,
+		"lon":-79.099571,
+		"distance_km":19,
+		"distance_mi":11
+		},
+		{
+		"neighborhood":"Gablehurst Crescent",
+		"city":"Pickering",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONPICKE3",
+		"lat":43.837219,
+		"lon":-79.110718,
+		"distance_km":20,
+		"distance_mi":12
+		},
+		{
+		"neighborhood":"Broadgreen Street",
+		"city":"Pickering",
+		"state":"ON",
+		"country":"CA",
+		"id":"IONPICKE7",
+		"lat":43.805855,
+		"lon":-79.104836,
+		"distance_km":22,
+		"distance_mi":13
+		}
+		]
+		}
+		}
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"12:33 AM EST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"snow",
+		"icon_url":"http://icons.wxug.com/i/c/k/snow.gif",
+		"title":"Tuesday",
+		"fcttext":"Variable clouds with snow showers. High 27F. Winds ENE at 10 to 20 mph. Chance of snow 50%. Snow accumulations less than one inch.",
+		"fcttext_metric":"Occasional snow showers. High -3C. Winds ENE at 15 to 30 km/h. Chance of snow 50%. Snow accumulations less than 2cm.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_snow",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_snow.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Periods of snow and windy. Low near 15F. Winds NNE at 20 to 30 mph. Chance of snow 100%. Snow accumulating 5 to 8 inches. Winds could occasionally gust over 40 mph.",
+		"fcttext_metric":"Snow along with gusty winds at times. Low near -10C. Winds NNE at 30 to 50 km/h. Chance of snow 100%. 12-20cm of snow expected. Winds could occasionally gust over 65 km/h.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":2,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Wednesday",
+		"fcttext":"Partly cloudy and windy. A few flurries or snow showers possible. High near 25F. Winds NW at 20 to 30 mph.",
+		"fcttext_metric":"Partly cloudy skies with gusty winds. A few flurries or snow showers possible. High near -5C. Winds NW at 30 to 50 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Partly cloudy skies. Low 1F. Winds NNW at 10 to 15 mph.",
+		"fcttext_metric":"Partly cloudy skies. Low -18C. Winds NNW at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":4,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Thursday",
+		"fcttext":"Except for a few afternoon clouds, mainly sunny. High around 20F. Winds NNE at 5 to 10 mph.",
+		"fcttext_metric":"Sunny, along with a few afternoon clouds. High -7C. Winds NNE at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Thursday Night",
+		"fcttext":"Partly cloudy. Low near 0F. Winds NE at 5 to 10 mph.",
+		"fcttext_metric":"A few clouds. Low -18C. Winds NE at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":6,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Friday",
+		"fcttext":"A mainly sunny sky. High 29F. Winds NNE at 5 to 10 mph.",
+		"fcttext_metric":"Sunny skies. High -2C. Winds NNE at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Friday Night",
+		"fcttext":"A few clouds overnight. Low near 10F. Winds light and variable.",
+		"fcttext_metric":"Mainly clear early, then a few clouds later on. Low -12C. Winds light and variable.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":8,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Saturday",
+		"fcttext":"Cloudy skies early, followed by partial clearing. High 34F. Winds SSE at 5 to 10 mph.",
+		"fcttext_metric":"Cloudy skies early, then partly cloudy in the afternoon. High 1C. Winds SSE at 10 to 15 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":9,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Saturday Night",
+		"fcttext":"Considerable clouds early. Some decrease in clouds late. Low 14F. Winds ENE at 5 to 10 mph.",
+		"fcttext_metric":"Mostly cloudy skies early will become partly cloudy late. Low -11C. Winds light and variable.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":10,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Sunday",
+		"fcttext":"Intervals of clouds and sunshine in the morning with more clouds for later in the day. High 39F. Winds SSW at 5 to 10 mph.",
+		"fcttext_metric":"Some sun in the morning with increasing clouds during the afternoon. High 4C. Winds SSW at 10 to 15 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":11,
+		"icon":"nt_snow",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_snow.gif",
+		"title":"Sunday Night",
+		"fcttext":"Variable clouds with snow showers or flurries. Low 28F. Winds S at 5 to 10 mph. Chance of snow 40%. Snow accumulations less than one inch.",
+		"fcttext_metric":"Snow flurries and snow showers. Low -3C. Winds S at 10 to 15 km/h. Chance of snow 40%. Snow accumulations less than 2cm.",
+		"pop":"40"
+		}
+		,
+		{
+		"period":12,
+		"icon":"snow",
+		"icon_url":"http://icons.wxug.com/i/c/k/snow.gif",
+		"title":"Monday",
+		"fcttext":"Becoming partly cloudy later with any flurries or snow showers ending by noontime. High 42F. Winds SW at 10 to 15 mph. Chance of snow 30%.",
+		"fcttext_metric":"Scattered snow flurries and snow showers before noon. Becoming partly cloudy later. High 6C. Winds SW at 15 to 25 km/h. Chance of snow 30%.",
+		"pop":"30"
+		}
+		,
+		{
+		"period":13,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Monday Night",
+		"fcttext":"Clear to partly cloudy. Low 32F. Winds N at 5 to 10 mph.",
+		"fcttext_metric":"A few clouds. Low near 0C. Winds NNE at 10 to 15 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":14,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Tuesday",
+		"fcttext":"Intervals of clouds and sunshine. High 48F. Winds light and variable.",
+		"fcttext_metric":"Intervals of clouds and sunshine. High 9C. Winds ESE at 10 to 15 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":15,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Partly cloudy skies. Low 39F. Winds SE at 5 to 10 mph.",
+		"fcttext_metric":"A few clouds. Low 4C. Winds SE at 10 to 15 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":16,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Wednesday",
+		"fcttext":"Partly cloudy. High 56F. Winds SSE at 10 to 15 mph.",
+		"fcttext_metric":"Sunshine and clouds mixed. High 14C. Winds SSE at 15 to 25 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":17,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Cloudy with showers. Low 41F. Winds S at 5 to 10 mph. Chance of rain 50%.",
+		"fcttext_metric":"Considerable cloudiness with occasional rain showers. Low near 5C. Winds SSE at 10 to 15 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":18,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Thursday",
+		"fcttext":"Cloudy with occasional rain showers. High around 55F. Winds SSE at 5 to 10 mph. Chance of rain 50%.",
+		"fcttext_metric":"Considerable cloudiness with occasional rain showers. High 13C. Winds SE at 10 to 15 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":19,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Thursday Night",
+		"fcttext":"Showers early becoming less numerous late. Low 41F. Winds light and variable. Chance of rain 50%.",
+		"fcttext_metric":"Rain showers in the evening becoming more intermittent overnight. Low around 5C. Winds light and variable. Chance of rain 50%.",
+		"pop":"50"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1456876800",
+	"pretty":"7:00 PM EST on March 01, 2016",
+	"day":1,
+	"month":3,
+	"year":2016,
+	"yday":60,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"March",
+	"monthname_short":"Mar",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/Montreal"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"27",
+		"celsius":"-3"
+		},
+		"low": {
+		"fahrenheit":"15",
+		"celsius":"-9"
+		},
+		"conditions":"Snow Showers",
+		"icon":"snow",
+		"icon_url":"http://icons.wxug.com/i/c/k/snow.gif",
+		"skyicon":"",
+		"pop":50,
+		"qpf_allday": {
+		"in": 0.58,
+		"mm": 15
+		},
+		"qpf_day": {
+		"in": 0.06,
+		"mm": 2
+		},
+		"qpf_night": {
+		"in": 0.52,
+		"mm": 13
+		},
+		"snow_allday": {
+		"in": 7.0,
+		"cm": 17.8
+		},
+		"snow_day": {
+		"in": 0.7,
+		"cm": 1.8
+		},
+		"snow_night": {
+		"in": 6.4,
+		"cm": 16.3
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "ENE",
+		"degrees": 72
+		},
+		"avewind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "ENE",
+		"degrees": 72
+		},
+		"avehumidity": 52,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1456963200",
+	"pretty":"7:00 PM EST on March 02, 2016",
+	"day":2,
+	"month":3,
+	"year":2016,
+	"yday":61,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"March",
+	"monthname_short":"Mar",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/Montreal"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"25",
+		"celsius":"-4"
+		},
+		"low": {
+		"fahrenheit":"1",
+		"celsius":"-17"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":20,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 30,
+		"kph": 48,
+		"dir": "NW",
+		"degrees": 309
+		},
+		"avewind": {
+		"mph": 21,
+		"kph": 34,
+		"dir": "NW",
+		"degrees": 309
+		},
+		"avehumidity": 58,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1457049600",
+	"pretty":"7:00 PM EST on March 03, 2016",
+	"day":3,
+	"month":3,
+	"year":2016,
+	"yday":62,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"March",
+	"monthname_short":"Mar",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/Montreal"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"20",
+		"celsius":"-7"
+		},
+		"low": {
+		"fahrenheit":"0",
+		"celsius":"-18"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "NNE",
+		"degrees": 23
+		},
+		"avewind": {
+		"mph": 6,
+		"kph": 10,
+		"dir": "NNE",
+		"degrees": 23
+		},
+		"avehumidity": 57,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1457136000",
+	"pretty":"7:00 PM EST on March 04, 2016",
+	"day":4,
+	"month":3,
+	"year":2016,
+	"yday":63,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"March",
+	"monthname_short":"Mar",
+	"weekday_short":"Fri",
+	"weekday":"Friday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/Montreal"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"29",
+		"celsius":"-2"
+		},
+		"low": {
+		"fahrenheit":"10",
+		"celsius":"-12"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "NNE",
+		"degrees": 30
+		},
+		"avewind": {
+		"mph": 6,
+		"kph": 10,
+		"dir": "NNE",
+		"degrees": 30
+		},
+		"avehumidity": 53,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1457222400",
+	"pretty":"7:00 PM EST on March 05, 2016",
+	"day":5,
+	"month":3,
+	"year":2016,
+	"yday":64,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"March",
+	"monthname_short":"Mar",
+	"weekday_short":"Sat",
+	"weekday":"Saturday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/Montreal"
+},
+		"period":5,
+		"high": {
+		"fahrenheit":"34",
+		"celsius":"1"
+		},
+		"low": {
+		"fahrenheit":"14",
+		"celsius":"-10"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":20,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "SSE",
+		"degrees": 150
+		},
+		"avewind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "SSE",
+		"degrees": 150
+		},
+		"avehumidity": 65,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1457308800",
+	"pretty":"7:00 PM EST on March 06, 2016",
+	"day":6,
+	"month":3,
+	"year":2016,
+	"yday":65,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"March",
+	"monthname_short":"Mar",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/Montreal"
+},
+		"period":6,
+		"high": {
+		"fahrenheit":"39",
+		"celsius":"4"
+		},
+		"low": {
+		"fahrenheit":"28",
+		"celsius":"-2"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.06,
+		"mm": 2
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.06,
+		"mm": 2
+		},
+		"snow_allday": {
+		"in": 0.5,
+		"cm": 1.3
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.5,
+		"cm": 1.3
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "SSW",
+		"degrees": 201
+		},
+		"avewind": {
+		"mph": 8,
+		"kph": 13,
+		"dir": "SSW",
+		"degrees": 201
+		},
+		"avehumidity": 66,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1457395200",
+	"pretty":"7:00 PM EST on March 07, 2016",
+	"day":7,
+	"month":3,
+	"year":2016,
+	"yday":66,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"March",
+	"monthname_short":"Mar",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/Montreal"
+},
+		"period":7,
+		"high": {
+		"fahrenheit":"42",
+		"celsius":"6"
+		},
+		"low": {
+		"fahrenheit":"32",
+		"celsius":"0"
+		},
+		"conditions":"Snow Showers",
+		"icon":"snow",
+		"icon_url":"http://icons.wxug.com/i/c/k/snow.gif",
+		"skyicon":"",
+		"pop":30,
+		"qpf_allday": {
+		"in": 0.01,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.01,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.1,
+		"cm": 0.3
+		},
+		"snow_day": {
+		"in": 0.1,
+		"cm": 0.3
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "SW",
+		"degrees": 224
+		},
+		"avewind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "SW",
+		"degrees": 224
+		},
+		"avehumidity": 80,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1457481600",
+	"pretty":"7:00 PM EST on March 08, 2016",
+	"day":8,
+	"month":3,
+	"year":2016,
+	"yday":67,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"March",
+	"monthname_short":"Mar",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/Montreal"
+},
+		"period":8,
+		"high": {
+		"fahrenheit":"48",
+		"celsius":"9"
+		},
+		"low": {
+		"fahrenheit":"39",
+		"celsius":"4"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "ESE",
+		"degrees": 107
+		},
+		"avewind": {
+		"mph": 5,
+		"kph": 8,
+		"dir": "ESE",
+		"degrees": 107
+		},
+		"avehumidity": 55,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1457568000",
+	"pretty":"7:00 PM EST on March 09, 2016",
+	"day":9,
+	"month":3,
+	"year":2016,
+	"yday":68,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"March",
+	"monthname_short":"Mar",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/Montreal"
+},
+		"period":9,
+		"high": {
+		"fahrenheit":"56",
+		"celsius":"13"
+		},
+		"low": {
+		"fahrenheit":"41",
+		"celsius":"5"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":20,
+		"qpf_allday": {
+		"in": 0.09,
+		"mm": 2
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.09,
+		"mm": 2
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "SSE",
+		"degrees": 168
+		},
+		"avewind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "SSE",
+		"degrees": 168
+		},
+		"avehumidity": 68,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1457654400",
+	"pretty":"7:00 PM EST on March 10, 2016",
+	"day":10,
+	"month":3,
+	"year":2016,
+	"yday":69,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"March",
+	"monthname_short":"Mar",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/Montreal"
+},
+		"period":10,
+		"high": {
+		"fahrenheit":"55",
+		"celsius":"13"
+		},
+		"low": {
+		"fahrenheit":"41",
+		"celsius":"5"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":50,
+		"qpf_allday": {
+		"in": 0.14,
+		"mm": 4
+		},
+		"qpf_day": {
+		"in": 0.07,
+		"mm": 2
+		},
+		"qpf_night": {
+		"in": 0.07,
+		"mm": 2
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "SSE",
+		"degrees": 149
+		},
+		"avewind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "SSE",
+		"degrees": 149
+		},
+		"avehumidity": 67,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}
